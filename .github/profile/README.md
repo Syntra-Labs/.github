@@ -60,6 +60,7 @@ For our complete architectural specification and multi-phase roadmap, read **[FU
 | **[`router`](https://github.com/Syntra-Labs/router)** | High-throughput geometric manifold substrate (`manifold.cpp`) and hybrid search engine (BM25 + FZF) | Substrate |
 | **[`scribe`](https://github.com/Syntra-Labs/scribe)** | Minimalist microphone voice recording and Whisper transcription CLI (`youtube` pipeline branched) | Active Tooling |
 | **[`synvim`](https://github.com/Syntra-Labs/synvim)** | Sovereign minimalist Neovim editor with voice input and instant symbol navigation | Active Editor |
+| **[`taskflow`](https://github.com/Syntra-Labs/taskflow)** | Source-first task management, DAG dependency resolution, and Two-Layer task specification | Active Tooling |
 | **[`lawful`](https://github.com/Syntra-Labs/lawful)** | High-performance C++ tensor library and mathematical primitives | Core Substrate |
 | **[`uor-r4`](https://github.com/Syntra-Labs/uor-r4)** | Research fork of `UOR-Foundation/uor-r4`: universal order & resonance formal systems | Active Research |
 | **[`prover`](https://github.com/Syntra-Labs/prover)** | Neurosymbolic theorem-proving framework and live Lean 4 compiler verification loop | Active Research |

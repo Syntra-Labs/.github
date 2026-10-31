@@ -48,7 +48,7 @@ The following architectural diagram models the end-to-end component layout and d
 | **[`tutor`](https://github.com/Syntra-Labs/tutor)** | Interactive systems programming problem platform and test harness (C++) | Core Platform |
 | **[`router`](https://github.com/Syntra-Labs/router)** | Fast C++ code search library and geometric vector manifold engine | Core Library |
 | **[`scribe`](https://github.com/Syntra-Labs/scribe)** | Fast local speech-to-text CLI for microphone recording | Tool |
-| **[`synvim`](https://github.com/Syntra-Labs/synvim)** | Minimalist Neovim editor with voice input and fast search | Editor |
+| **[`synvim`](https://github.com/Syntra-Labs/synvim)** | Minimalist Neovim configuration with monochrome colorscheme and tiling terminal splits | Editor Config |
 | **[`taskflow`](https://github.com/Syntra-Labs/taskflow)** | Source-first task manager tracking dependencies directly in code comments | Tool |
 | **[`photon`](https://github.com/Syntra-Labs/photon)** | Safety-verifying compiler bridging continuous-variable logic with silicon-photonic hardware | Hardware Compiler |
 | **[`lawful`](https://github.com/Syntra-Labs/lawful)** | Fast C++ tensor algebra and mathematical foundation library | Library |

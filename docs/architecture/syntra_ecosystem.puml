@@ -36,8 +36,8 @@ skinparam arrow {
 
 title **Syntra Labs — Ecosystem Architecture & Inter-Component Integration**
 
-package "Developer & Editor Workspaces" as DevTier {
-    component "**synvim**\n//Sovereign Text Editor//" as Synvim #F1F5F9
+package "Developer Tools & Editor Config" as DevTier {
+    component "**synvim**\n//Neovim Config: Tiling Splits & Theme//" as Synvim #F1F5F9
     component "**scribe**\n//Local Speech-to-Text CLI//" as Scribe #FFFFFF
     component "**sphere-route**\n//3D Quaternion Globe & Visualizer//" as SphereRoute #FFFFFF
 }
@@ -66,8 +66,6 @@ package "Formal Methods & Hardware Synthesis" as FormalTier #F8FAFC {
 }
 
 ' Connections
-Scribe -down-> Synvim : "Voice dictation (:Listen)"
-Router -up-> Synvim : "Fast code search (:Find)"
 Synvim .right.> TutorVim : "Optional editor backend"
 
 Tutor *-down-> Catalog : "Manages & tests"

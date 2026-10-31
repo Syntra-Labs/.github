@@ -19,7 +19,7 @@
 
 **Syntra Labs** is an open-source systems and research laboratory building tools at the intersection of developer cognitive augmentation, distributed systems, and formal methods.
 
-While the modern AI landscape is focused on autonomous coding agents that write code on behalf of developers, Syntra Labs pursues a fundamentally different vision: **Cognitive Tutors and Research Arenas**. We build environments where engineers solve genuine systems and research challenges, prove invariants, spin up distributed clusters, and crowdsource real-world production software optimization through clean-room contract slicing.
+While the modern AI landscape is focused on autonomous coding agents that write code on behalf of developers, Syntra Labs pursues a fundamentally different vision: **Cognitive Tutors and Research Arenas**. We build environments where engineers solve genuine systems challenges, prove invariants, spin up distributed clusters, and improve real-world software by writing better implementations from extracted problem stubs.
 
 ---
 
@@ -42,9 +42,9 @@ For our complete architectural specification and multi-phase roadmap, read **[FU
 - **Real-World Topologies**: Challenges are not in-memory script exercises—they spin up ephemeral container clusters, microVMs, and simulated networks with dynamic fault injection (delays, partitions, node crashes).
 - **Multi-Tier Verification**: Combines property-based fuzzing, deterministic test oracles, and formal proof checkers to guarantee correctness under real-world conditions.
 
-### 4. Clean-Room Real-World Slicing & Production Optimization
-- **Opaque Interface Boundaries**: Users can tackle real-world problems from existing production software without seeing existing implementations or surrounding code. They receive only the strict type signature and behavioral contract.
-- **Production Upstream Pipeline**: If a user's implementation passes all verification suites and demonstrates superior performance (lower CPU cycles, fewer cache misses, reduced memory allocations, better tail latency) compared to the current production baseline, the system can automatically propose an upstream Pull Request to update production code.
+### 4. Real-World Problem Stubs & Upstream Contribution
+- **Isolated Problem Stubs**: Extract functions from real-world open-source repositories as standalone coding challenges with empty bodies and test harnesses.
+- **Production Upstream Pipeline**: If a user's implementation passes all tests and outperforms the current production baseline (lower CPU cycles, fewer cache misses, better latency), the system formats an upstream Pull Request to contribute the improvement back.
 
 ### 5. Adaptive Cognitive Routing
 - **Skill Graph & Knowledge Tracing**: Continuous evaluation of user proficiency across algorithmic depth, concurrency modeling, invariant reasoning, and profiling intuition.

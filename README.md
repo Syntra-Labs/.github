@@ -62,7 +62,7 @@ For our complete architectural specification and multi-phase roadmap, read **[FU
 | **[`synvim`](https://github.com/Syntra-Labs/synvim)** | Sovereign minimalist Neovim editor with voice input and instant symbol navigation | Active Editor |
 | **[`lawful`](https://github.com/Syntra-Labs/lawful)** | High-performance C++ tensor library and mathematical primitives | Core Substrate |
 | **[`uor-r4`](https://github.com/Syntra-Labs/uor-r4)** | Research fork of `UOR-Foundation/uor-r4`: universal order & resonance formal systems | Active Research |
-| **[`r4-prover`](https://github.com/wwwportal/r4-prover)** / **[`prover`](https://github.com/Syntra-Labs/prover)** | Geometric code engine, lifecycle router, and deterministic code oracle | Active Research |
+| **[`prover`](https://github.com/Syntra-Labs/prover)** | Neurosymbolic theorem-proving framework and live Lean 4 compiler verification loop | Active Research |
 
 ---
 

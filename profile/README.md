@@ -37,7 +37,8 @@ The following architectural diagram models the end-to-end component layout and d
 
 </div>
 
-> Source PlantUML: [`docs/architecture/syntra_ecosystem.puml`](docs/architecture/syntra_ecosystem.puml) | Generated using [`docs/architecture/generate_diagrams.sh`](docs/architecture/generate_diagrams.sh)
+> Source PlantUML: [`docs/architecture/syntra_ecosystem.puml`](docs/architecture/syntra_ecosystem.puml) 
+> Generated using [`docs/architecture/generate_diagrams.sh`](docs/architecture/generate_diagrams.sh)
 
 ---
 

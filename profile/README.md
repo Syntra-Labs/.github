@@ -9,7 +9,7 @@
 *Helping programmers build deep understanding rather than relying on auto-generated code.*
 
 [![Organization: Syntra-Labs](https://img.shields.io/badge/organization-Syntra--Labs-blue.svg)](https://github.com/Syntra-Labs)
-[![Roadmap: GitHub Issues](https://img.shields.io/badge/roadmap-github--issues-orange.svg)](https://github.com/Syntra-Labs/syntra-labs/issues)
+[![Roadmap: GitHub Issues](https://img.shields.io/badge/roadmap-github--issues-orange.svg)](https://github.com/Syntra-Labs/.github/issues)
 
 </div>
 
@@ -25,7 +25,7 @@ Instead of writing code for you, our tools are built to help you practice and un
 
 ## Core Focus Areas
 
-All project milestones, ideas, and problem definitions are tracked in our **[GitHub Issues Tracker](https://github.com/Syntra-Labs/syntra-labs/issues)**.
+All project milestones, ideas, and problem definitions are tracked in our **[GitHub Issues Tracker](https://github.com/Syntra-Labs/.github/issues)**.
 
 ### 1. A Tutor, Not an Autocomplete Bot
 - **Build Real Understanding**: Copying AI-generated code leads to shallow understanding and subtle bugs. Syntra acts as a tutor that guides you to master core principles, edge cases, and performance tradeoffs.
@@ -72,7 +72,7 @@ All project milestones, ideas, and problem definitions are tracked in our **[Git
 
 We welcome systems programmers, researchers, and developers who care about building tools that help people learn and build better software.
 
-- Check out our roadmap in [GitHub Issues](https://github.com/Syntra-Labs/syntra-labs/issues).
+- Check out our roadmap in [GitHub Issues](https://github.com/Syntra-Labs/.github/issues).
 - Browse our repositories under the [Syntra-Labs Organization](https://github.com/Syntra-Labs).
 
 <div align="center">

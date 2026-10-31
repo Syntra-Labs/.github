@@ -1,0 +1,85 @@
+@startuml syntra_ecosystem
+!theme plain
+skinparam backgroundColor #FFFFFF
+skinparam defaultFontName "Helvetica, Arial, sans-serif"
+skinparam defaultFontSize 12
+skinparam roundCorner 8
+skinparam shadowing false
+skinparam packageStyle rectangle
+
+skinparam rectangle {
+    BackgroundColor #F8FAFC
+    BorderColor #64748B
+    BorderThickness 1.5
+    FontSize 13
+    FontStyle bold
+}
+
+skinparam card {
+    BackgroundColor #FFFFFF
+    BorderColor #94A3B8
+    BorderThickness 1.2
+}
+
+skinparam component {
+    BackgroundColor #FFFFFF
+    BorderColor #334155
+    BorderThickness 1.2
+}
+
+skinparam arrow {
+    Color #2563EB
+    Thickness 1.2
+    FontColor #334155
+    FontSize 11
+}
+
+title **Syntra Labs — Ecosystem Architecture & Inter-Component Integration**
+
+package "Developer & Editor Workspaces" as DevTier {
+    component "**synvim**\n//Sovereign Text Editor//" as Synvim #F1F5F9
+    component "**scribe**\n//Local Speech-to-Text CLI//" as Scribe #FFFFFF
+    component "**sphere-route**\n//3D Quaternion Globe & Visualizer//" as SphereRoute #FFFFFF
+}
+
+package "Core Practice & Pedagogy (Active Focus)" as PracticeTier #EFF6FF {
+    component "**tutor**\n//C++ Problem Platform & Harness//" as Tutor #DBEAFE
+    card "Problem Catalog (C++)\n• 001-lockfree-ringbuffer\n• 002-hypervector-hamming\n• 003-lru-cache-o1\n• 004-ca184-demarcation" as Catalog #FFFFFF
+    card "**tutorvim**\n//Dual-Pane Split Wrapper//" as TutorVim #FFFFFF
+}
+
+package "Task Management & Routing" as TaskTier {
+    component "**taskflow**\n//Source-First Task System//" as Taskflow #F1F5F9
+    card "In-Code Task Annotations\n//TODO(...) & Git Branches//" as TaskSpecs #FFFFFF
+}
+
+package "Foundational Libraries & Search" as LibTier {
+    component "**router**\n//C++ Search & Manifold Engine//" as Router #FFFFFF
+    component "**lawful**\n//C++ Tensor & Math Foundation//" as Lawful #FFFFFF
+}
+
+package "Formal Methods & Hardware Synthesis" as FormalTier #F8FAFC {
+    component "**photon**\n//Silicon-Photonic Hardware Compiler//" as Photon #FFFFFF
+    component "**prover** [Archived]\n//Lean 4 Theorem Prover & lgcc//" as Prover #F3F4F6
+    component "**uor-r4**\n//Order & Resonance Research//" as UorR4 #FFFFFF
+    component "**tokenizer**\n//72-EDO Audio Carrier Mixer//" as Tokenizer #FFFFFF
+}
+
+' Connections
+Scribe -down-> Synvim : "Voice dictation (:Listen)"
+Router -up-> Synvim : "Fast code search (:Find)"
+Synvim .right.> TutorVim : "Optional editor backend"
+
+Tutor *-down-> Catalog : "Manages & tests"
+TutorVim -up-> Tutor : "Wraps CLI execution"
+
+Taskflow *-down-> Router : "Vendors for geometric\ntask placement"
+TaskSpecs -up-> Taskflow : "Scanned from source"
+
+Prover ..> Tutor : "Supplies lgcc stub generator\n(PATH: ~/.local/bin/lgcc)"
+
+Photon ..> Lawful : "Tensor & phase-space algebra"
+SphereRoute ..> Router : "Quaternion trajectories"
+SphereRoute ..> UorR4 : "Rotations visualization (#14)"
+
+@enduml

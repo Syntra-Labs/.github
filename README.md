@@ -25,6 +25,22 @@ Instead of writing code for you, our tools are built to help you practice and un
 
 All project milestones, ideas, and problem definitions are tracked in our **[GitHub Issues Tracker](https://github.com/Syntra-Labs/.github/issues)**.
 
+---
+
+## Architecture & Ecosystem Integration
+
+The following architectural diagram models the end-to-end component layout and data flow across the **Syntra Labs** ecosystem:
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/Syntra-Labs/.github/main/docs/architecture/syntra_ecosystem.svg" width="100%" alt="Syntra Labs Ecosystem Architecture" />
+
+</div>
+
+> Source PlantUML: [`docs/architecture/syntra_ecosystem.puml`](docs/architecture/syntra_ecosystem.puml) | Generated using [`docs/architecture/generate_diagrams.sh`](docs/architecture/generate_diagrams.sh)
+
+---
+
 ## Repositories
 
 | Repository | Description | Status |
@@ -49,7 +65,3 @@ We welcome systems programmers, researchers, and developers who care about build
 
 - Check out our roadmap in [GitHub Issues](https://github.com/Syntra-Labs/.github/issues).
 - Browse our repositories under the [Syntra-Labs Organization](https://github.com/Syntra-Labs).
-
-<div align="center">
-<sub>© 2026 Syntra Labs. Distributed under open source licenses.</sub>
-</div>

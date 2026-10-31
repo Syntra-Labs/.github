@@ -4,9 +4,9 @@
 
 # Syntra Labs
 
-**Cognitive Tutors, Distributed Verification, and Clean-Room Systems Research**
+**Interactive Coding Tutors, Distributed Systems Practice, and Developer Tools**
 
-*Empowering human mastery over passive code generation.*
+*Helping programmers build deep understanding rather than relying on auto-generated code.*
 
 [![Organization: Syntra-Labs](https://img.shields.io/badge/organization-Syntra--Labs-blue.svg)](https://github.com/Syntra-Labs)
 [![Roadmap: GitHub Issues](https://img.shields.io/badge/roadmap-github--issues-orange.svg)](https://github.com/Syntra-Labs/syntra-labs/issues)
@@ -17,65 +17,64 @@
 
 ## Overview
 
-**Syntra Labs** is an open-source systems and research laboratory building tools at the intersection of developer cognitive augmentation, distributed systems, and formal methods.
+**Syntra Labs** builds open-source tools for developers who want to master systems programming, distributed systems, and software verification.
 
-While the modern AI landscape is focused on autonomous coding agents that write code on behalf of developers, Syntra Labs pursues a fundamentally different vision: **Cognitive Tutors and Research Arenas**. We build environments where engineers solve genuine systems challenges, prove invariants, spin up distributed clusters, and improve real-world software by writing better implementations from extracted problem stubs.
-
----
-
-## Core Pillars & Roadmap
-
-All roadmap phases, architectural specifications, and problem definitions are tracked directly in our **[GitHub Issues Tracker](https://github.com/Syntra-Labs/syntra-labs/issues)**.
-
-### 1. Coding Tutor, Rather than Coding Agent
-- **Active Synthesis over Passive Generation**: Generative agents produce epistemic debt and shallow understanding. Syntra operates as a Socratic mentor and rigorous evaluator that guides developers to master foundational principles, edge-case invariants, and algorithmic tradeoffs.
-- **Dialectic Evaluation**: The tutor asks probing questions, points out unhandled failure modes, and offers targeted hints rather than writing solutions for the user.
-
-### 2. Research & Experimentation via Problem-Set Solving
-- Complex theoretical computer science and systems engineering structured as inquiry-driven problem sets:
-  - Distributed consensus & fault tolerance (Raft, Paxos, CRDTs under network chaos).
-  - Formal methods & interactive theorem proving (Lean 4, Hoare logic, SMT).
-  - High-performance systems & cache-conscious data structures.
-  - Custom allocators, lock-free concurrency, and kernel/runtime internals.
-
-### 3. Distributed Execution & Integrated Verification
-- **Real-World Topologies**: Challenges are not in-memory script exercises—they spin up ephemeral container clusters, microVMs, and simulated networks with dynamic fault injection (delays, partitions, node crashes).
-- **Multi-Tier Verification**: Combines property-based fuzzing, deterministic test oracles, and formal proof checkers to guarantee correctness under real-world conditions.
-
-### 4. Real-World Problem Stubs & Upstream Contribution
-- **Isolated Problem Stubs**: Extract functions from real-world open-source repositories as standalone coding challenges with empty bodies and test harnesses.
-- **Production Upstream Pipeline**: If a user's implementation passes all tests and outperforms the current production baseline (lower CPU cycles, fewer cache misses, better latency), the system formats an upstream Pull Request to contribute the improvement back.
-
-### 5. Adaptive Cognitive Routing
-- **Skill Graph & Knowledge Tracing**: Continuous evaluation of user proficiency across algorithmic depth, concurrency modeling, invariant reasoning, and profiling intuition.
-- **Frontier Guidance**: Challenges are sequenced dynamically to keep learners in their optimal Zone of Proximal Development based on their explicit goals.
+Instead of writing code for you, our tools are built to help you practice and understand hard engineering problems: distributed consensus, lock-free concurrency, memory management, and performance tuning.
 
 ---
 
-## Ecosystem Repositories
+## Core Focus Areas
+
+All project milestones, ideas, and problem definitions are tracked in our **[GitHub Issues Tracker](https://github.com/Syntra-Labs/syntra-labs/issues)**.
+
+### 1. A Tutor, Not an Autocomplete Bot
+- **Build Real Understanding**: Copying AI-generated code leads to shallow understanding and subtle bugs. Syntra acts as a tutor that guides you to master core principles, edge cases, and performance tradeoffs.
+- **Helpful Feedback**: The tutor asks guiding questions, points out unhandled errors, and gives targeted hints instead of simply writing the solution for you.
+
+### 2. Real Systems Problem Sets
+- Hands-on challenges covering practical computer science topics:
+  - Distributed consensus and fault tolerance (Raft, Paxos, CRDTs under network chaos).
+  - Formal methods and theorem proving (Lean 4, Hoare logic).
+  - Cache-friendly data structures and memory layouts.
+  - Custom memory allocators, lock-free queues, and runtime internals.
+
+### 3. Realistic Test Environments
+- **Real Network Conditions**: Tests are not just unit tests—they run in containers and simulated networks with real delays, partitions, and node crashes.
+- **Thorough Verification**: Combines property-based fuzzing, automated test suites, and formal checks to ensure solutions work under stress.
+
+### 4. Real-World Problems and Upstream Contributions
+- **Extracted Problem Stubs**: We take real functions from open-source repositories and turn them into standalone exercises with test harnesses.
+- **Contributing Back**: When an implementation passes all tests and beats the production baseline (lower CPU usage, fewer cache misses, lower latency), we help format a Pull Request to contribute the fix back.
+
+### 5. Adaptive Problem Selection
+- **Progress Tracking**: Tracks your comfort across topics (algorithms, concurrency, systems profiling) to suggest problems that match your current skill level.
+
+---
+
+## Repositories
 
 | Repository | Description | Status |
 | :--- | :--- | :--- |
-| **[`tutor`](https://github.com/Syntra-Labs/tutor)** | Socratic systems problem runner (LeetVim-style), native test runner, and `lgcc` contract slicer & linter | Core Platform |
-| **[`router`](https://github.com/Syntra-Labs/router)** | High-throughput geometric manifold substrate (`manifold.cpp`) and hybrid search engine (BM25 + FZF) | Substrate |
-| **[`scribe`](https://github.com/Syntra-Labs/scribe)** | Minimalist microphone voice recording and Whisper transcription CLI (`youtube` pipeline branched) | Active Tooling |
-| **[`synvim`](https://github.com/Syntra-Labs/synvim)** | Sovereign minimalist Neovim editor with voice input and instant symbol navigation | Active Editor |
-| **[`taskflow`](https://github.com/Syntra-Labs/taskflow)** | Source-first task management, DAG dependency resolution, and Two-Layer task specification | Active Tooling |
-| **[`lawful`](https://github.com/Syntra-Labs/lawful)** | High-performance C++ tensor library and mathematical primitives | Core Substrate |
-| **[`uor-r4`](https://github.com/Syntra-Labs/uor-r4)** | Research fork of `UOR-Foundation/uor-r4`: universal order & resonance formal systems | Active Research |
-| **[`prover`](https://github.com/Syntra-Labs/prover)** | Neurosymbolic theorem-proving framework and live Lean 4 compiler verification loop | Archived Research |
-| **[`sphere-route`](https://github.com/Syntra-Labs/sphere-route)** | Interactive spherical navigation sandbox and geometric invariant verification environment (C++ DSL) | Research Demo |
-| **[`tokenizer`](https://github.com/Syntra-Labs/tokenizer)** | Polyphonic microtonal mixer synthesizing 72-EDO audio carriers as an acoustic tokenizer alternative | Active Research |
+| **[`tutor`](https://github.com/Syntra-Labs/tutor)** | Interactive problem runner and test harness for systems programming practice | Core Platform |
+| **[`router`](https://github.com/Syntra-Labs/router)** | Fast C++ code search and data routing library | Core Library |
+| **[`scribe`](https://github.com/Syntra-Labs/scribe)** | Fast local speech-to-text CLI for microphone recording | Tool |
+| **[`synvim`](https://github.com/Syntra-Labs/synvim)** | Minimalist Neovim editor with voice input and fast search | Editor |
+| **[`taskflow`](https://github.com/Syntra-Labs/taskflow)** | Task manager that tracks dependencies directly in code comments | Tool |
+| **[`lawful`](https://github.com/Syntra-Labs/lawful)** | Fast C++ tensor and math library | Library |
+| **[`uor-r4`](https://github.com/Syntra-Labs/uor-r4)** | Formal reasoning and mathematical logic research | Research |
+| **[`prover`](https://github.com/Syntra-Labs/prover)** | Lean 4 theorem-proving experiment (archived) | Archived |
+| **[`sphere-route`](https://github.com/Syntra-Labs/sphere-route)** | Interactive 3D globe where you steer paths using C++ in an in-browser Neovim editor | Interactive Demo |
+| **[`tokenizer`](https://github.com/Syntra-Labs/tokenizer)** | Audio-based text tokenization experiment | Research |
 
 ---
 
-## Contributing & Collaboration
+## Contributing
 
-We welcome systems researchers, formal methods practitioners, and developers passionate about building tools that foster human understanding.
+We welcome systems programmers, researchers, and developers who care about building tools that help people learn and build better software.
 
-- Explore our roadmap and specifications in [GitHub Issues](https://github.com/Syntra-Labs/syntra-labs/issues).
-- Explore our repositories under the [Syntra-Labs Organization](https://github.com/Syntra-Labs).
+- Check out our roadmap in [GitHub Issues](https://github.com/Syntra-Labs/syntra-labs/issues).
+- Browse our repositories under the [Syntra-Labs Organization](https://github.com/Syntra-Labs).
 
 <div align="center">
-<sub>© 2026 Syntra Labs. Distributed under open research licenses.</sub>
+<sub>© 2026 Syntra Labs. Distributed under open source licenses.</sub>
 </div>

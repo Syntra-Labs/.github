@@ -63,6 +63,8 @@ For our complete architectural specification and multi-phase roadmap, read **[FU
 | **[`lawful`](https://github.com/Syntra-Labs/lawful)** | High-performance C++ tensor library and mathematical primitives | Core Substrate |
 | **[`uor-r4`](https://github.com/Syntra-Labs/uor-r4)** | Research fork of `UOR-Foundation/uor-r4`: universal order & resonance formal systems | Active Research |
 | **[`prover`](https://github.com/Syntra-Labs/prover)** | Neurosymbolic theorem-proving framework and live Lean 4 compiler verification loop | Active Research |
+| **[`sphere-route`](https://github.com/Syntra-Labs/sphere-route)** | Interactive spherical navigation sandbox and geometric invariant verification environment (C++ DSL) | Research Demo |
+| **[`tokenizer`](https://github.com/Syntra-Labs/tokenizer)** | Polyphonic microtonal mixer synthesizing 72-EDO audio carriers as an acoustic tokenizer alternative | Active Research |
 
 ---
 

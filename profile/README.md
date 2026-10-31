@@ -23,33 +23,7 @@ Instead of writing code for you, our tools are built to help you practice and un
 
 ---
 
-## Core Focus Areas
-
 All project milestones, ideas, and problem definitions are tracked in our **[GitHub Issues Tracker](https://github.com/Syntra-Labs/.github/issues)**.
-
-### 1. A Tutor, Not an Autocomplete Bot
-- **Build Real Understanding**: Copying AI-generated code leads to shallow understanding and subtle bugs. Syntra acts as a tutor that guides you to master core principles, edge cases, and performance tradeoffs.
-- **Helpful Feedback**: The tutor asks guiding questions, points out unhandled errors, and gives targeted hints instead of simply writing the solution for you.
-
-### 2. Real Systems Problem Sets
-- Hands-on challenges covering practical computer science topics:
-  - Distributed consensus and fault tolerance (Raft, Paxos, CRDTs under network chaos).
-  - Formal methods and theorem proving (Lean 4, Hoare logic).
-  - Cache-friendly data structures and memory layouts.
-  - Custom memory allocators, lock-free queues, and runtime internals.
-
-### 3. Realistic Test Environments
-- **Real Network Conditions**: Tests are not just unit tests—they run in containers and simulated networks with real delays, partitions, and node crashes.
-- **Thorough Verification**: Combines property-based fuzzing, automated test suites, and formal checks to ensure solutions work under stress.
-
-### 4. Real-World Problems and Upstream Contributions
-- **Extracted Problem Stubs**: We take real functions from open-source repositories and turn them into standalone exercises with test harnesses.
-- **Contributing Back**: When an implementation passes all tests and beats the production baseline (lower CPU usage, fewer cache misses, lower latency), we help format a Pull Request to contribute the fix back.
-
-### 5. Adaptive Problem Selection
-- **Progress Tracking**: Tracks your comfort across topics (algorithms, concurrency, systems profiling) to suggest problems that match your current skill level.
-
----
 
 ## Repositories
 

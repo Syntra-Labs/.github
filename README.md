@@ -9,7 +9,7 @@
 *Empowering human mastery over passive code generation.*
 
 [![Organization: Syntra-Labs](https://img.shields.io/badge/organization-Syntra--Labs-blue.svg)](https://github.com/Syntra-Labs)
-[![Architecture: Future Plans](https://img.shields.io/badge/roadmap-future--plans-orange.svg)](FUTURE_PLANS.md)
+[![Roadmap: GitHub Issues](https://img.shields.io/badge/roadmap-github--issues-orange.svg)](https://github.com/Syntra-Labs/syntra-labs/issues)
 
 </div>
 
@@ -23,9 +23,9 @@ While the modern AI landscape is focused on autonomous coding agents that write 
 
 ---
 
-## Core Pillars & Future Plans
+## Core Pillars & Roadmap
 
-For our complete architectural specification and multi-phase roadmap, read **[FUTURE_PLANS.md](FUTURE_PLANS.md)**.
+All roadmap phases, architectural specifications, and problem definitions are tracked directly in our **[GitHub Issues Tracker](https://github.com/Syntra-Labs/syntra-labs/issues)**.
 
 ### 1. Coding Tutor, Rather than Coding Agent
 - **Active Synthesis over Passive Generation**: Generative agents produce epistemic debt and shallow understanding. Syntra operates as a Socratic mentor and rigorous evaluator that guides developers to master foundational principles, edge-case invariants, and algorithmic tradeoffs.
@@ -73,7 +73,7 @@ For our complete architectural specification and multi-phase roadmap, read **[FU
 
 We welcome systems researchers, formal methods practitioners, and developers passionate about building tools that foster human understanding.
 
-- Read our detailed vision in **[FUTURE_PLANS.md](FUTURE_PLANS.md)**.
+- Explore our roadmap and specifications in [GitHub Issues](https://github.com/Syntra-Labs/syntra-labs/issues).
 - Explore our repositories under the [Syntra-Labs Organization](https://github.com/Syntra-Labs).
 
 <div align="center">

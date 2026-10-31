@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./portal-loader.svg" width="120" height="120" alt="Syntra Labs Logo" />
+<a href="https://github.com/Syntra-Labs"><img src="https://raw.githubusercontent.com/Syntra-Labs/.github/main/portal-loader.svg" width="120" height="120" alt="Syntra Labs Logo" /></a>
 
 # Syntra Labs
 

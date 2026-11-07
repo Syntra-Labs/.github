@@ -23,10 +23,6 @@ Instead of writing code for you, our tools are built to help you practice and un
 
 ---
 
-All project milestones, ideas, and problem definitions are tracked in our **[GitHub Issues Tracker](https://github.com/Syntra-Labs/.github/issues)**.
-
----
-
 ## Architecture & Ecosystem Integration
 
 The following architectural diagram models the end-to-end component layout and data flow across the **Syntra Labs** ecosystem:

@@ -39,24 +39,6 @@ The following architectural diagram models the end-to-end component layout and d
 
 ---
 
-## Repositories
-
-| Repository | Description | Status |
-| :--- | :--- | :--- |
-| **[`tutor`](https://github.com/Syntra-Labs/tutor)** | Interactive systems programming problem platform and test harness (C++) | Core Platform |
-| **[`router`](https://github.com/Syntra-Labs/router)** | Fast C++ code search library and geometric vector manifold engine | Core Library |
-| **[`scribe`](https://github.com/Syntra-Labs/scribe)** | Fast local speech-to-text CLI for microphone recording | Tool |
-| **[`synvim`](https://github.com/Syntra-Labs/synvim)** | Minimalist Neovim configuration with monochrome colorscheme and tiling terminal splits | Editor Config |
-| **[`taskflow`](https://github.com/Syntra-Labs/taskflow)** | Source-first task manager tracking dependencies directly in code comments | Tool |
-| **[`photon`](https://github.com/Syntra-Labs/photon)** | Safety-verifying compiler bridging continuous-variable logic with silicon-photonic hardware | Hardware Compiler |
-| **[`lawful`](https://github.com/Syntra-Labs/lawful)** | Fast C++ tensor algebra and mathematical foundation library | Library |
-| **[`sphere-route`](https://github.com/Syntra-Labs/sphere-route)** | Interactive 3D globe where you steer quaternion paths using C++ in an in-browser Neovim editor | Interactive Demo |
-| **[`uor-r4`](https://github.com/Syntra-Labs/uor-r4)** | Syntra Labs research fork of UOR-R4: universal order & resonance formal systems | Research |
-| **[`tokenizer`](https://github.com/Syntra-Labs/tokenizer)** | Polyphonic microtonal mixer synthesizing 72-EDO audio carriers as an acoustic tokenizer alternative | Research |
-| **[`prover`](https://github.com/Syntra-Labs/prover)** | Formal Lean 4 theorem-proving and logical compiler experiment (archived) | Archived |
-
----
-
 ## Contributing
 
 We welcome systems programmers, researchers, and developers who care about building tools that help people learn and build better software.

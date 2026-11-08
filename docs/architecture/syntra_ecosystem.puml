@@ -1,5 +1,6 @@
 @startuml syntra_ecosystem
 !theme plain
+' TODO: add aliases to colours
 skinparam backgroundColor #FFFFFF
 skinparam defaultFontName "Helvetica, Arial, sans-serif"
 skinparam defaultFontSize 12

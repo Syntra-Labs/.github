@@ -15,6 +15,15 @@
 
 ---
 
+## Contributing
+
+We welcome systems programmers, researchers, and developers who care about building tools that help people learn and build better software.
+
+- Check out our roadmap in [GitHub Issues](https://github.com/Syntra-Labs/.github/issues).
+- Browse our repositories under the [Syntra-Labs Organization](https://github.com/Syntra-Labs).
+
+---
+
 ## Overview
 
 **Syntra Labs** builds open-source tools for developers who want to master systems programming, distributed systems, and software verification.
@@ -38,10 +47,3 @@ The following architectural diagram models the end-to-end component layout and d
 > Generated using [`docs/architecture/generate_diagrams.sh`](docs/architecture/generate_diagrams.sh)
 
 ---
-
-## Contributing
-
-We welcome systems programmers, researchers, and developers who care about building tools that help people learn and build better software.
-
-- Check out our roadmap in [GitHub Issues](https://github.com/Syntra-Labs/.github/issues).
-- Browse our repositories under the [Syntra-Labs Organization](https://github.com/Syntra-Labs).

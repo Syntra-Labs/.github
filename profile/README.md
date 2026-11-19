@@ -1,4 +1,4 @@
-Mostly theoretical or archived works... take a look at syntra-tutor, which branched out to focus on more practical applications.
+Mostly theoretical or archived works... take a look at [syntra-tutor](https://github.com/Syntra-Tutor), which branched out to focus on more practical applications.
 
 <div align="center">
 
